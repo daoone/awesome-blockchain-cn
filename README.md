@@ -21,16 +21,19 @@
 
 ### Started 入门 
 
-- [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide) 区块链领域比较系统的入门资料
-- [一步一步学区块链](http://blog.csdn.net/jwter87/article/details/53322642) 按步骤的实际操作入门指南
-- [区块链技术-智能合约-以太坊](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum) 以太坊智能合约入门概念
-- [理解区块链](http://blog.csdn.net/csolo/article/details/52858236) 区块链关键要点讲解
+
 - [（一）简单易懂地介绍什么是区块链](https://zhuanlan.zhihu.com/p/22228902) 比特币区块链关键词讲解
 - [（二）简单易懂地介绍什么是区块链（技术篇）](https://zhuanlan.zhihu.com/p/23243289) 比特币区块链技术图解
+- [一文看懂区块链：一步一步发明比特币](https://charlesliuyx.github.io/2017/09/24/%E4%B8%80%E6%96%87%E5%BC%84%E6%87%82%E5%8C%BA%E5%9D%97%E9%93%BE-%E4%BB%A5%E6%AF%94%E7%89%B9%E5%B8%81%E4%B8%BA%E4%BE%8B/)
+- [一步一步学区块链](http://blog.csdn.net/jwter87/article/details/53322642) 按步骤的实际操作入门指南
+- [区块链技术指南](https://yeasy.gitbooks.io/blockchain_guide) 区块链领域比较系统的入门资料
+- [理解区块链](http://blog.csdn.net/csolo/article/details/52858236) 区块链关键技术要点讲解
 - [一文看懂区块链架构设计](http://www.8btc.com/ebook-blockchain) 从技术分层解构架构
+- [共识算法与如何解决拜占庭将军问题](https://charlesliuyx.github.io/2018/03/03/%E3%80%90%E5%8C%BA%E5%9D%97%E9%93%BE%E3%80%91%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%B0%86%E5%86%9B%E9%97%AE%E9%A2%98/)
 
 ### Ethereum 以太坊进阶
 
+- [区块链技术-智能合约-以太坊](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum) 以太坊智能合约入门概念
 - [以太坊白皮书](http://ethfans.org/wikis/以太坊白皮书)
 - [The Ethereum Wiki](https://theethereum.wiki/w/index.php/Main_Page) *(English)*
 - [以太坊设计原理](http://ethfans.org/posts/510)
@@ -99,18 +102,17 @@
 - [Metaverse](https://github.com/mvs-org/metaverse) 原界链源码
 - [EOS](https://github.com/EOSIO/eos) EOS链源码
 - [BYTOM](https://github.com/Bytom/bytom) 比原链源码
+- [NEO](https://github.com/neo-project/neo) NEO链源码
 - [CITA](https://github.com/cryptape/cita) cita联盟链的底层源码
 - [比特币0.1](https://github.com/fkysly/bitcoin0.1.0) 最原始的比特币代码
-- [Blockbench](https://github.com/ooibc88/blockbench) 区块链性能测试工具
 - [Quorum](https://github.com/jpmorganchase/quorum) 来自JP Morgan基于Go-Ethereum数据隐私加强的以太坊实现
 - [BCOS](https://github.com/bcosorg/bcos) 来自微众银行的增强版以太坊实现
 - [Presto-Ethereum](https://github.com/xiaoyao1991/presto-ethereum) 以太坊增加Presto的SQL访问能力
 - [IPFS](https://github.com/ipfs/go-ipfs) IPFS的GO语言实现 [原理](https://github.com/ipfs/ipfs)
 
-
 ### SDK 工具包
 
-- [Remix](https://ethereum.github.io/browser-solidity/) 浏览器编译器
+- [Remix](https://ethereum.github.io/browser-solidity/) 在线以太坊编译器
 - [Truffle](https://github.com/trufflesuite/truffle) 以太坊Dapp开发脚手架
 - [Zeppelin](https://github.com/OpenZeppelin/zeppelin-solidity) 用于编写安全的以太坊合约框架
 - [Web3j](https://github.com/web3j/web3j) 以太坊官方Web3轻量级java SDK
@@ -118,8 +120,17 @@
 - [Web3Swift](https://github.com/BANKEX/web3swift) 一个Web3的swift SDK
 - [Porosity](https://github.com/comaeio/porosity) 反编译以太坊智能合约工具
 - [Solidity-Coverage](https://github.com/sc-forks/solidity-coverage) 检测Solidity代码覆盖
+- [Caliper](https://github.com/hyperledger-archives/caliper) hyperledger区块链性能测试工具
 - [Composer](https://github.com/hyperledger/composer) 官方可视化Fabric应用开发框架
 - [Cakeshop](https://github.com/jpmorganchase/cakeshop) 来自JP Morgan的以太坊可视化管理工具
+
+### Research 最新研究
+
+- [eWASM](https://github.com/ewasm/design) 让以太坊支持WebAssembly
+- [FSolidM](https://cps-vo.org/group/SmartContracts) 可视化智能合约生成工具 [源码](https://github.com/anmavrid/smart-contracts)
+- [Maian](https://github.com/MAIAN-tool/MAIAN) 以太坊智能合约漏洞查找工具
+- [Oyente](https://github.com/melonproject/oyente) 以太坊智能合约分析工具
+- [Blockbench](https://github.com/ooibc88/blockbench) 区块链性能测试工具
 - [Zokrates](https://github.com/JacobEberhardt/ZoKrates) 以太坊使用zkSNARKS工具包(实验用)
 - [libsnark](https://github.com/scipr-lab/libsnark) zkSNARKS C++库
 - [Maian](https://github.com/MAIAN-tool/MAIAN) 以太坊智能合约漏洞查找工具
@@ -163,6 +174,7 @@
 - [Etherscan](https://etherscan.io) 以太坊区块链浏览器
 - [Ethplorer](https://ethplorer.io) 以太坊区块链浏览器，提供API调用
 - [Eth Gas Station](https://ethgasstation.info/index.php) 以太坊Gas目前定价
+- [Etherscope](https://etherscope.io) 以太坊区块链浏览器
 
 ### Wallet 钱包
 
@@ -178,6 +190,23 @@
 - [Ledger Nano S](https://theethereum.wiki/w/index.php/Ledger_Nano_S) 硬件钱包
 - [Trezor](https://blog.trezor.io/trezor-integration-with-myetherwallet-3e217a652e08) 硬件钱包
 
+### Exchange 交易所
+
+- [0x](https://www.0xproject.com/otc) 0x交易所平台 [源码](https://github.com/0xProject/contracts)
+- [IDEX](https://idex.market) IDEX交易所，目前最活跃 [源码](https://github.com/AuroraDAO)
+- [ethdelf](https://etherdelta.github.io/#ZRX-ETH) etherdelta交易所 [源码](https://github.com/etherdelta/smart_contract)
+- [forkdelta](https://forkdelta.github.io) forkdelta交易所,较活跃 [源码](https://github.com/forkdelta/smart_contract)
+- [kyber](https://kyber.network/) kyber交易所 [源码](https://github.com/kyberNetwork/smart_contract)
+- [Dmarket](https://dmarket.io) dmarket交易所 [源码](https://github.com/suntechsoft/dmarket-smartcontract)
+- [augur](https://augur.net/) 对赌交易所 [源码](https://github.com/AugurProject)
+- [melonport](https://melonport.com/) 数字资产交易所 [源码](https://github.com/melonproject)
+
+### Game 游戏
+
+- [CryptoKitties](https://www.cryptokitties.co/) 以太猫
+- [Etheremon](https://www.etheremon.com/#/) 以太神奇宝贝
+- [Edgeless](https://www.edgeless.io/) 虚拟币在线赌场 [源码](https://github.com/EdgelessCasino/Smart-Contracts)
+
 ### IM 通信
 
 - [status-im](https://github.com/status-im/status-network-token) status.im项目开源代码
@@ -190,14 +219,6 @@
 - [Chronobank](https://chronobank.io/) 共享机制
 - [slockit](https://slock.it/) 租借智能设备 [源码](https://github.com/slockit/smart-contract)
 - [DAO](https://github.com/slockit/DAO) DAO提案
-
-### Exchange 交易所
-
-- [0x](https://www.0xproject.com/otc) 0x交易所 [源码](https://github.com/0xProject/contracts)
-- [ethdelf](https://etherdelta.github.io/#ZRX-ETH) etherdelta交易所 [源码](https://github.com/etherdelta/smart_contract)
-- [Dmarket](https://dmarket.io) dmarket交易所 [源码](https://github.com/suntechsoft/dmarket-smartcontract)
-- [augur](https://augur.net/) 对赌交易所 [源码](https://github.com/AugurProject)
-- [melonport](https://melonport.com/) 数字资产交易所 [源码](https://github.com/melonproject)
 
 ### Cross Chain 跨链
 
